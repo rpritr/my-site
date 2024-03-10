@@ -1,11 +1,11 @@
 import React, {Component} from "react";
 import logo from "../../logo.svg";
-
+import Logo from "./Logo";
 class Header extends Component {
     render() {
         return (
             <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo" />
+                <Logo/>
                 <p>
                     Edit <code>src/App.js</code> and save to reload.
                 </p>
